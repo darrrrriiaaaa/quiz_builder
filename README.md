@@ -41,22 +41,19 @@ cd quiz_builder
 npm install
 ```
 
-3. Configure the database in a .env file:
-```DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE"```
-
-4. Run Prisma migrations:
+3. Run Prisma migrations:
 ```npx prisma migrate dev --name init```
 
-5. Start the server:
+4. Start the server:
 ```npm run dev```
 
-6. Install frontend dependencies and start:
+5. Install frontend dependencies and start:
 ```cd ../frontend
 npm install
 npm run dev
 ```
 
-7. Open http://localhost:3000
+6. Open http://localhost:3000
 
 
 ## Usage
@@ -70,6 +67,6 @@ Click on the quiz title to view its questions.
 Use the Delete button to remove a quiz.
 
 
-##Contributing
+## Contributing
 
 If you want to help, open a pull request or an issue. Any improvements are welcome!
