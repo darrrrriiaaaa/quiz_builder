@@ -37,7 +37,8 @@ cd quiz_builder
 ```
 
 2. Install backend dependencies:
-```cd backend
+```
+cd backend
 npm install
 ```
 
@@ -48,7 +49,8 @@ npm install
 ```npm run dev```
 
 5. Install frontend dependencies and start:
-```cd ../frontend
+```
+cd ../frontend
 npm install
 npm run dev
 ```
